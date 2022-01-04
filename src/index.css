@@ -1,0 +1,88 @@
+/* styling the navbar
+*/
+.navbar-bg
+{
+  background-color: var(--bgcolor);
+  padding: 2rem 0;
+  z-index: 99;
+  position: relative;
+}
+.navbar li{
+  padding: 0 2rem;
+  
+}
+a:link {
+  text-decoration: none;
+}
+
+.d-flex
+{
+  font-size: 2.0rem;
+}
+.navbar li a{
+  font-size: 1.6rem;
+  font-weight: lighter;
+  position: relative;
+  
+}
+.navbar li a:hover{
+  color:var(--bgcolor);
+}
+
+/*
+Header
+*/
+
+.menu {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  
+  
+}
+
+.main {
+  width: 50%;
+  padding: 15px;
+   position:sticky;
+   top: 0;
+   float :right;
+}
+.Grid
+{
+  width: 100%;
+  float: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:black;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+.Grid1
+{
+  width: 100%;
+  float: left;
+  background-color:gray;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item1 {
+  background-color: gray;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+
+
+
+
+
